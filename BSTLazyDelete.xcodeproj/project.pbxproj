@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27AA889720A4C9D4004B6FA4 /* lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab4; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AA889720A4C9D4004B6FA4 /* BSTLazyDelete */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BSTLazyDelete; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AA889A20A4C9D5004B6FA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		27AA88A120A4CC4A004B6FA4 /* FHlazySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHlazySearchTree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,7 +42,7 @@
 		27AA888E20A4C9D4004B6FA4 = {
 			isa = PBXGroup;
 			children = (
-				27AA889920A4C9D4004B6FA4 /* lab4 */,
+				27AA889920A4C9D4004B6FA4 /* BSTLazyDelete */,
 				27AA889820A4C9D4004B6FA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,26 +50,26 @@
 		27AA889820A4C9D4004B6FA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27AA889720A4C9D4004B6FA4 /* lab4 */,
+				27AA889720A4C9D4004B6FA4 /* BSTLazyDelete */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27AA889920A4C9D4004B6FA4 /* lab4 */ = {
+		27AA889920A4C9D4004B6FA4 /* BSTLazyDelete */ = {
 			isa = PBXGroup;
 			children = (
 				27AA889A20A4C9D5004B6FA4 /* main.cpp */,
 				27AA88A120A4CC4A004B6FA4 /* FHlazySearchTree.h */,
 			);
-			path = lab4;
+			path = BSTLazyDelete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27AA889620A4C9D4004B6FA4 /* lab4 */ = {
+		27AA889620A4C9D4004B6FA4 /* BSTLazyDelete */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27AA889E20A4C9D5004B6FA4 /* Build configuration list for PBXNativeTarget "lab4" */;
+			buildConfigurationList = 27AA889E20A4C9D5004B6FA4 /* Build configuration list for PBXNativeTarget "BSTLazyDelete" */;
 			buildPhases = (
 				27AA889320A4C9D4004B6FA4 /* Sources */,
 				27AA889420A4C9D4004B6FA4 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = lab4;
+			name = BSTLazyDelete;
 			productName = lab4;
-			productReference = 27AA889720A4C9D4004B6FA4 /* lab4 */;
+			productReference = 27AA889720A4C9D4004B6FA4 /* BSTLazyDelete */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 27AA889220A4C9D4004B6FA4 /* Build configuration list for PBXProject "lab4" */;
+			buildConfigurationList = 27AA889220A4C9D4004B6FA4 /* Build configuration list for PBXProject "BSTLazyDelete" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27AA889620A4C9D4004B6FA4 /* lab4 */,
+				27AA889620A4C9D4004B6FA4 /* BSTLazyDelete */,
 			);
 		};
 /* End PBXProject section */
@@ -240,7 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53MNE7PDV2;
+				DEVELOPMENT_TEAM = 3X9MDV2R79;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,7 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53MNE7PDV2;
+				DEVELOPMENT_TEAM = 3X9MDV2R79;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -257,7 +257,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27AA889220A4C9D4004B6FA4 /* Build configuration list for PBXProject "lab4" */ = {
+		27AA889220A4C9D4004B6FA4 /* Build configuration list for PBXProject "BSTLazyDelete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27AA889C20A4C9D5004B6FA4 /* Debug */,
@@ -266,7 +266,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27AA889E20A4C9D5004B6FA4 /* Build configuration list for PBXNativeTarget "lab4" */ = {
+		27AA889E20A4C9D5004B6FA4 /* Build configuration list for PBXNativeTarget "BSTLazyDelete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27AA889F20A4C9D5004B6FA4 /* Debug */,
